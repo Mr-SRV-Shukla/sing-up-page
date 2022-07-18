@@ -1,0 +1,65 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url("bg pick.jpg");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   background-attachment: fixed;
+}
+.main{
+   margin:165px 0px 0px 279px;
+   padding: 25px 200px 25px 200px;
+   border: 2px solid black;
+   border-radius:10px;
+   background: white;
+
+}
+.sing{
+    margin: 30px 0px 24px 0px;
+    font-size: xx-large;
+
+}
+.email{
+    margin: 15px 0px 6px 0px;
+    padding: 3px 42px 0px 0px;
+    font-style: oblique;
+    
+}
+#email1 #password{
+    border: 1px solid black ;
+    border-radius: 2px ;
+}
+#password{
+    border: 1px solid black ;
+    border-radius: 2px ;
+}
+.password{
+    margin: 15px 0px 6px 0px;
+    padding: 3px 42px 0px 0px; 
+    font-style: oblique;
+}
+:root{
+    --color: blue;
+    --color2: green;
+    --color3:rgb(142, 142, 229);
+    --color4:rgb(154, 231, 154);
+}
+.submit{
+    width: 200px;
+    margin: 20px 30px;
+    padding: 6px 30px;
+    background: var(--color3);
+    border: 2px solid black var(--color);
+    border-radius: 5px;
+    color: var(--color2);
+    transition: color 0.3s, box-shadow 0.3s;
+    box-shadow: 3px 3px 10px var(--color);
+    text-transform: uppercase;
+    cursor: pointer;;
+}
+button:hover {
+    color: var(--color);
+    box-shadow: 3px 3px 10px var(--color2);
+    background: var(--color4);
+  }
